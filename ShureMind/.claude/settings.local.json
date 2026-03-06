@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//Users/hades/Desktop/**)",
+      "Bash(grep -n \"[\\\\u4e00-\\\\u9fff]\" *.swift)",
+      "Bash(grep -n \"//.*[\\\\u4e00-\\\\u9fff]\" *.swift)",
+      "Bash(grep -o \"[\\\\u4e00-\\\\u9fff]\" *.swift)",
+      "Bash(perl -ne 'print \"\"$ARGV:$.:$_\"\" if /[\\\\x{4e00}-\\\\x{9fff}]/' *.swift)"
+    ]
+  }
+}
