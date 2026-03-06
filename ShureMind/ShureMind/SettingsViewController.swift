@@ -137,7 +137,7 @@ class SettingsViewController: UIViewController {
         aboutTitleLabel.textColor = ColorPalette.accentPurple
         aboutContainerView.addSubview(aboutTitleLabel)
 
-        aboutDescriptionLabel.text = "ShureMind is a cognitive training app designed to enhance your focus, memory, and mental agility.\n\nFeatures:\n• Schulte Grid training\n• Picture Memory exercises\n• Daily challenges\n• Progress tracking"
+        aboutDescriptionLabel.text = "ShureMind is a cognitive training app designed to enhance your focus, memory, and mental agility through scientifically-backed exercises.\n\nFeatures:\n• Schulte Grid training with 8 unique shapes (🔷🌀⭕➕🔺⭐🌊🔶)\n• Picture Memory exercises\n• Daily challenges & achievements\n• Progress tracking & statistics\n• 5 beautiful themes\n• Haptic feedback & sound effects"
         aboutDescriptionLabel.font = FontManager.bodyMedium()
         aboutDescriptionLabel.textColor = ColorPalette.textSecondary
         aboutDescriptionLabel.numberOfLines = 0
